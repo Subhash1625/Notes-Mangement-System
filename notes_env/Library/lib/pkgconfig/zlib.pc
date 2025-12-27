@@ -1,0 +1,13 @@
+prefix=C:/FLASK FILES HERE/Projects/Notes Mangement System/notes_env/Library
+exec_prefix=C:/FLASK FILES HERE/Projects/Notes Mangement System/notes_env/Library
+libdir=C:/FLASK FILES HERE/Projects/Notes Mangement System/notes_env/Library/lib
+sharedlibdir=C:/FLASK FILES HERE/Projects/Notes Mangement System/notes_env/Library/lib
+includedir=C:/FLASK FILES HERE/Projects/Notes Mangement System/notes_env/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
